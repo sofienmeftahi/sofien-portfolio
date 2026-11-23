@@ -28,7 +28,7 @@ const media = (f) => `./media/${f}`
 
 export const profile = {
   name: 'Sofien Meftahi',
-  role: 'BI Developer & Microsoft Fabric Analytics Engineer',
+  role: 'Data Analyst | BI Developer | Microsoft Fabric Analytics Engineer',
   location: 'Jendouba, Tunisia',
   email: 'sofien.meftahi02@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sofien-meftahi',
