@@ -28,7 +28,7 @@ const media = (f) => `./media/${f}`
 
 export const profile = {
   name: 'Sofien Meftahi',
-  role: 'BI Developer & Microsoft Fabric Analytics Engineer',
+  role: 'Data Analyst & BI Developer',
   location: 'Jendouba, Tunisia',
   email: 'sofien.meftahi02@gmail.com',
   linkedin: 'https://www.linkedin.com/in/sofien-meftahi',
@@ -41,11 +41,11 @@ export const profile = {
   personal:
     'Based in Jendouba. I like building data products about places I know: two of my projects put the 2024 Tunisian census on a map.',
   intro:
-    'Microsoft Certified Fabric Analytics Engineer with an M.Sc. in Data Mining, Analysis and Visualization. I design lakehouse pipelines, star-schema warehouses and Power BI models, and I ship full-stack analytics apps where an LLM writes the SQL but the data stays the source of truth.',
+    'M.Sc. in Data Mining, Analysis and Visualization and Microsoft Certified (DP-600). I analyse data, build machine-learning models, design Fabric pipelines and Power BI models, and ship analytics apps where an LLM writes the SQL but the data stays the source of truth.',
 }
 
 export const glance = [
-  { label: 'Looking for', value: 'BI Developer · Analytics Engineer · Data Analyst' },
+  { label: 'Looking for', value: 'Data Analyst · BI Developer · Analytics Engineer' },
   { label: 'Work mode', value: 'On-site in Tunisia, hybrid or remote' },
   { label: 'Certified', value: 'Microsoft DP-600 · Fabric Analytics Engineer Associate' },
   { label: 'Languages', value: 'Arabic, French, English · German A2' },
