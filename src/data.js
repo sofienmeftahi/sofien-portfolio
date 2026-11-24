@@ -16,6 +16,8 @@ import studioSalesDark from './assets/projects/studio-sales-dark.webp'
 import studioCensus from './assets/projects/studio-census-dark.webp'
 import studioLight from './assets/projects/studio-sales-light.webp'
 import studioCopilot from './assets/projects/studio-copilot.webp'
+import studioData from './assets/projects/studio-data.webp'
+import studioBuilder from './assets/projects/studio-builder.webp'
 
 import lgHome from './assets/projects/lg-home.webp'
 import lgLesson from './assets/projects/lg-lesson.webp'
@@ -174,6 +176,8 @@ export const projects = [
     stack: ['Next.js', 'TypeScript', 'DuckDB', 'ECharts', 'PostgreSQL', 'MySQL', 'Claude API'],
     story: [
       { kind: 'image', tall: true, src: studioSalesTall, url: 'insight-studio · sales dashboard', title: 'Sales dashboard', text: '11 visuals on 12,000 orders: KPI cards with trends, world and Tunisia maps, rankings and a table with data bars.' },
+      { kind: 'image', src: studioData, url: 'insight-studio · data', title: 'Bring your data', text: 'Import a CSV or Excel file, or connect PostgreSQL or MySQL with a read-only user. Here, 7,903 rows of CO2 emissions by country land in DuckDB, ready to query.' },
+      { kind: 'image', src: studioBuilder, url: 'insight-studio · dashboard builder', title: 'Build it like Power BI', text: 'Pick one of 20+ visuals, drop fields into X axis, legend and values, and the chart updates instantly. The Copilot sits on the right, ready to summarize or add visuals for you.' },
       { kind: 'image', src: studioCopilot, url: 'insight-studio · ask ai', title: 'AI Copilot', text: '“Which category sells the most?” The Copilot runs the query, draws the chart and lets you pin it to any dashboard.' },
       { kind: 'image', src: studioCensus, url: 'insight-studio · census 2024', title: 'Census 2024', text: 'The INS census as a dashboard: population by governorate and growth from 2014 to 2024.' },
       { kind: 'image', src: studioLight, url: 'insight-studio · sales dashboard', title: 'Light theme', text: 'Every dashboard works in light and dark, with cross-filtering, slicers and CSV or PNG export.' },
